@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib"
+                    xmlns:Converters="clr-namespace:ButtonIMGSample3.Converters">
+    <Converters:ResourceToMediaImageConverter x:Key="ResourceToMediaImageConverter" />
+    <System:String x:Key="Twitter">Twitter_64px</System:String>
+    <Style x:Key="TwitterImage" TargetType="Image">
+        <Setter Property="Source" Value="{Binding Source={StaticResource Twitter},Converter={StaticResource ResourceToMediaImageConverter}}"/>
+    </Style>
+</ResourceDictionary>

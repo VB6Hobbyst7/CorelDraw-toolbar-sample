@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib"
+                    xmlns:Converters="clr-namespace:ButtonIMGSample.Converters">
+    <Converters:ResourceToMediaImageConverter x:Key="ResourceToMediaImageConverter" />
+
+    <System:String x:Key="Shutdown">Shutdown_64px</System:String>
+    <Style x:Key="ShutdownImage" TargetType="Image">
+        <Setter Property="Source" Value="{Binding Source={StaticResource Shutdown},Converter={StaticResource ResourceToMediaImageConverter}}"/>
+    </Style>
+    <System:String x:Key="Facebook">Facebook_64px</System:String>
+    <Style x:Key="FacebookImage" TargetType="Image">
+        <Setter Property="Source" Value="{Binding Source={StaticResource Facebook},Converter={StaticResource ResourceToMediaImageConverter}}"/>
+    </Style>
+</ResourceDictionary>

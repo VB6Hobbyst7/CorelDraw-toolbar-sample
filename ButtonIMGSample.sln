@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ButtonIMGSample", "ButtonIMGSample\ButtonIMGSample.vbproj", "{046C881E-A7E6-41F8-AF4F-27A5781510F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C26D6759-8D71-4447-A70A-D50E44D5E49C} = {C26D6759-8D71-4447-A70A-D50E44D5E49C}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ButtonIMGSample3", "ButtonIMGSample3\ButtonIMGSample3.vbproj", "{C26D6759-8D71-4447-A70A-D50E44D5E49C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		X7 Debug|Any CPU = X7 Debug|Any CPU
+		X7 Release|Any CPU = X7 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{046C881E-A7E6-41F8-AF4F-27A5781510F5}.X7 Debug|Any CPU.ActiveCfg = X7 Debug|Any CPU
+		{046C881E-A7E6-41F8-AF4F-27A5781510F5}.X7 Debug|Any CPU.Build.0 = X7 Debug|Any CPU
+		{046C881E-A7E6-41F8-AF4F-27A5781510F5}.X7 Release|Any CPU.ActiveCfg = X7 Release|Any CPU
+		{046C881E-A7E6-41F8-AF4F-27A5781510F5}.X7 Release|Any CPU.Build.0 = X7 Release|Any CPU
+		{C26D6759-8D71-4447-A70A-D50E44D5E49C}.X7 Debug|Any CPU.ActiveCfg = X7 Debug|Any CPU
+		{C26D6759-8D71-4447-A70A-D50E44D5E49C}.X7 Debug|Any CPU.Build.0 = X7 Debug|Any CPU
+		{C26D6759-8D71-4447-A70A-D50E44D5E49C}.X7 Release|Any CPU.ActiveCfg = X7 Release|Any CPU
+		{C26D6759-8D71-4447-A70A-D50E44D5E49C}.X7 Release|Any CPU.Build.0 = X7 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0AF3F95-5E26-4A5B-B340-CC7BA448B7C3}
+	EndGlobalSection
+EndGlobal
